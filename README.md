@@ -20,6 +20,8 @@ Access to any VM on Cyber Range requires OpenVPN connection.
 Once connected to the OpenVPN server, a person may access the VMs in a few ways: (i) web access; (ii) Micrsoft Remote Desktop; (iii) SSH (e.g. Putty) if a SSH server runs on the particular VM.
 
 ## Web access
+The benefit of web access is it allows students to start dead VMs. Do not create snapshots since there is no more space on Cyber Range.
+
 1. Browse https://xoa.cyberseclab.uml.edu within the browser and log into the virtual Cyber Range with the provided username and password.
 2. Within the virtual Cyber Range, i.e. XOA web page, click the Home button to see all (two) virtual machines (VMs) allocated to each student. 
    - Click Filters at the top of the webpage and select *None* if there is no VM listed.
