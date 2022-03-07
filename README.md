@@ -2,9 +2,9 @@
 
 We created a lot of [video tutorials](https://sites.uml.edu/ccf/education/video-tutorials/) on Cyber Range and refer to them if needed.
 
-UMass Lowell has a virtual Cyber Range, called Cyber Range for brevity. We offer remote access to virtual machines (VMs) hosted over Cyber Range, which is behind a firewall. To access the VMs, a person has to acquire an OpenVPN profile and use OpenVPN to connect to our OpenVPN server. Once connected to the OpenVPN server, a person may access the VMs in a few ways: (i) web access; (ii) Micrsoft Remote Desktop; (iii) SSH (e.g. Putty) if a SSH server runs on the particular VM.
+UMass Lowell has a virtual Cyber Range, called Cyber Range for brevity. We offer remote access to virtual machines (VMs) hosted over Cyber Range, which is behind a firewall. To access the VMs, a person has to install the OpenVPN client software on a computer, acquire an OpenVPN profile from the adminstrator and use OpenVPN to connect to our OpenVPN server. 
 
-## Install OpenVPN
+# Install OpenVPN
 Access to any VM on Cyber Range requires OpenVPN connection.
 
 1. Download [OpenVPN for Windows](https://openvpn.net/client-connect-vpn-for-windows/), or [OpenVPN for MacOS](https://openvpn.net/client-connect-vpn-for-mac-os/)
@@ -16,6 +16,8 @@ Access to any VM on Cyber Range requires OpenVPN connection.
 6. Click “Add”
 7. Now connect to this profile.
 
+# Access Cyber Range VMs
+Once connected to the OpenVPN server, a person may access the VMs in a few ways: (i) web access; (ii) Micrsoft Remote Desktop; (iii) SSH (e.g. Putty) if a SSH server runs on the particular VM.
 
 ## Web access
 1. Browse https://xoa.cyberseclab.uml.edu within the browser and log into the virtual Cyber Range with the provided username and password.
