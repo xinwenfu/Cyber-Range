@@ -25,6 +25,7 @@ If the connection is very slow, you may need to change the resolution of the rem
 ## SSH (e.g. Putty)
 You may access the Kali VM and Metasploitable VM through SSH, e.g., [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) or the native *ssh* command under MacOS and Linux. 
 
+
 |Machine|	SSH Port|	Command Example|	RDP Support|
 --------------------------------------------------
 |Kali | 	2022	|ssh kali@192.168.7.144 -p 2022|	Yes|
