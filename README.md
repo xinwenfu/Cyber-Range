@@ -1,5 +1,7 @@
 # Cyber Range
 
+We created a lot of [video tutorials](https://sites.uml.edu/ccf/education/video-tutorials/) on Cyber Range and refer to them if needed.
+
 UMass Lowell has a virtual Cyber Range, called Cyber Range for brevity. We offer remote access to virtual machines (VMs) hosted over Cyber Range, which is behind a firewall. To access the VMs, a person has to acquire an OpenVPN profile and use OpenVPN to connect to our OpenVPN server. Once connected to the OpenVPN server, a person may access the VMs in a few ways: (i) web access; (ii) Micrsoft Remote Desktop; (iii) SSH (e.g. Putty) if a SSH server runs on the particular VM.
 
 ## Web access
@@ -23,7 +25,7 @@ If the connection is very slow, you may need to change the resolution of the rem
 - Now connect to the VM again, following the steps from earlier
 
 ## SSH (e.g. Putty)
-You may access the Kali VM and Metasploitable VM through SSH, e.g., [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) or the native *ssh* command under MacOS and Linux. 
+You may access the Kali VM and Metasploitable VM through SSH, e.g., [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) or the native *ssh* command under MacOS and Linux. Please note Metasploitable does not support RDP.
 
 
 |Machine       |	SSH Port |	Command Example             |	RDP Support |
