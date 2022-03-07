@@ -27,7 +27,7 @@ You may access the Kali VM and Metasploitable VM through SSH, e.g., [Putty](http
 
 |Machine|	SSH Port|	Command Example|	RDP Support|
 --------------------------------------------------
-|Kali | 	2022	|ssh kali@192.168.7.144| -p 2022|	Yes|
+|Kali | 	2022	|ssh kali@192.168.7.144 -p 2022|	Yes|
 |Metasploitable|	22	|ssh msfadmin@192.168.7.144|	No|
 |Windows	|N/A|	N/A|	Yes|
-________________________________________________
+
