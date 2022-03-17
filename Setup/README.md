@@ -7,6 +7,7 @@ sudo apt install virtualbox
 sudo apt install virtualbox-dkms
 ```
 
-Install all VMs into /vm
-Change the properties of /vm
-read/write by Group and Others
+Configure the PC in Cyber Range
+1. Install all VMs into /vm
+2. Change the properties of /vm
+3. read/write by Group and Others
