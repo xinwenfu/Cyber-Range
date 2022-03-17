@@ -11,3 +11,12 @@ Configure the PC in Cyber Range
 1. Install all VMs into /vm
 2. Change the properties of /vm
 3. read/write by Group and Others
+
+Configure VirtualBox
+1. File -> Prefenreces -> Network -> Add
+2. Particular VM -> Settings -> USB -> Uncheck it
+
+Copy .ova files
+```
+scp cyberadmin@192.168.7.194:/vm/*.ova /vm/.
+```
