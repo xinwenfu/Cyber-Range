@@ -20,3 +20,5 @@ Copy .ova files
 ```
 scp cyberadmin@192.168.7.194:/vm/*.ova /vm/.
 ```
+
+Chane the network setting of Kali VM to NatNetwork and disable USB too.
