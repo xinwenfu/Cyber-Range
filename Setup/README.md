@@ -7,18 +7,20 @@ sudo apt install virtualbox
 sudo apt install virtualbox-dkms
 ```
 
+Copy .ova files to a computer
+```
+scp cyberadmin@192.168.7.194:/vm/*.ova /vm/.
+```
+
 Configure the PC in Cyber Range
 1. Install all VMs into /vm
 2. Change the properties of /vm
-3. read/write by Group and Others
+   - read/write by Group and Others
 
 Configure VirtualBox
 1. File -> Prefenreces -> Network -> Add
 2. Particular VM -> Settings -> USB -> Uncheck it
 
-Copy .ova files
-```
-scp cyberadmin@192.168.7.194:/vm/*.ova /vm/.
-```
+
 
 Chane the network setting of Kali VM to NatNetwork and disable USB too.
