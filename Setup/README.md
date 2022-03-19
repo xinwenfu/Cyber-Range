@@ -1,4 +1,8 @@
-Disable secure boot on a PC. Otherwise, have to configure virtualbox too for the sake of secure boot.
+## Disable secure boot on a PC. 
+
+Otherwise, have to configure virtualbox too for the sake of secure boot.
+
+Reboot the PC. Immediately push the key *F2* a few times until the bios setting screen shows up. Move to the *Boot configuration* and *Enter* to see all the options. Click the right panel that has all the options. I used the arrow key and move around to find secure boot checkbox. Press the *Space* key to toggle it.
 
 ## [VirtualBox kernel modules do not match this version of VirtualBox](https://askubuntu.com/questions/837427/virtualbox-kernel-modules-do-not-match-this-version-of-virtualbox)
 
