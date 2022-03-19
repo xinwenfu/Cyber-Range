@@ -1,4 +1,4 @@
-[VirtualBox kernel modules do not match this version of VirtualBox](https://askubuntu.com/questions/837427/virtualbox-kernel-modules-do-not-match-this-version-of-virtualbox)
+* [VirtualBox kernel modules do not match this version of VirtualBox](https://askubuntu.com/questions/837427/virtualbox-kernel-modules-do-not-match-this-version-of-virtualbox)
 
 Exit virtualbox and reinstall it
 ```
@@ -20,7 +20,6 @@ Configure the PC in Cyber Range
 Configure VirtualBox
 1. File -> Prefenreces -> Network -> Add
 2. Particular VM -> Settings -> USB -> Uncheck it
-
 
 
 Chane the network setting of Kali VM to NatNetwork and disable USB too.
