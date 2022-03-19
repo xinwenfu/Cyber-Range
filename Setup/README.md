@@ -1,3 +1,5 @@
+Disable secure boot. Otherwise, have to configure virtualbox too for the sake of secure boot.
+
 ## [VirtualBox kernel modules do not match this version of VirtualBox](https://askubuntu.com/questions/837427/virtualbox-kernel-modules-do-not-match-this-version-of-virtualbox)
 
 Exit virtualbox and reinstall it
